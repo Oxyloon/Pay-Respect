@@ -1,27 +1,14 @@
 <?php
-    require('header.php');
+    require('header-footer/header.php');
 ?>
+    <title>Rechercher un jeu</title>
+    <h1>Rechercher un ou plusieurs jeux :</h1>
+    <p>ici : faire un formulaire de recherche par titres, genres et plateformes</p>
 
-    <h1>Voici le résultat de ta recherche :</h1>
-    
-    <p>Le titre du jeux :
-        <?php
-            echo'$name'
-        ?>
-    </p>
-
-    <p>Le genre :
-        <?php
-            echo''
-        ?>
-    </p>
-
-    <p>La plateforme :
-        <?php
-            echo''
-        ?>
-    </p>
+    <form action="/pages/result.php">
+        <input type="submit" value="Rechercher">
+    </form>
 
 <?php
-    require('footer.php');
+    require('header-footer/footer.php');
 ?>
